@@ -21,7 +21,7 @@ Unlike traditional retrievers that treat text and images separately, ColPali joi
 
 ## Demo Video
 
-[Demo Video on Google Drive]([https://your-google-drive-link-here](https://drive.google.com/file/d/1d9aEpawugvF-HpCs1mrhQ3Fx9Iv2_QKz/view?usp=sharing))
+[Click here to view the demo on Google Drive](https://drive.google.com/file/d/1d9aEpawugvF-HpCs1mrhQ3Fx9Iv2_QKz/view?usp=sharing)
 
 ##  Tech Stack
 
