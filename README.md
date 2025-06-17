@@ -6,7 +6,7 @@ This project implements a **Multimodal Retrieval-Augmented Generation pipeline**
 
 ![Multimodal RAG Pipeline](pipelineDiagram.png)
 
-##Pipeline Overview
+## Pipeline Overview
 
 1. **PDF Processing**: Extract text + render images.
 2. **Multimodal Embedding**: Encode both modalities using ColPali into shared latent space.
