@@ -19,10 +19,9 @@ This project implements a **Multimodal Retrieval-Augmented Generation pipeline**
 
 Unlike traditional retrievers that treat text and images separately, ColPali jointly embeds both modalities in a single, aligned space. It's lightweight, accurate, and ideal for document-level multimodal search — removing the need for separate encoders and enabling efficient multivector storage and retrieval.
 
+## Demo Video
 
-## 🎥 Demo Video
-
-[Demo video Google Drive]([https://your-google-drive-link-here](https://drive.google.com/file/d/1d9aEpawugvF-HpCs1mrhQ3Fx9Iv2_QKz/view?usp=sharing))
+[Demo Video on Google Drive]([https://your-google-drive-link-here](https://drive.google.com/file/d/1d9aEpawugvF-HpCs1mrhQ3Fx9Iv2_QKz/view?usp=sharing))
 
 ##  Tech Stack
 
@@ -31,5 +30,3 @@ Unlike traditional retrievers that treat text and images separately, ColPali joi
 - **Vespa**: Multivector vector DB
 - **LLaVA via LocalAI**: Local VLM for generation
 - **Gradio**: UI for interactive retrieval
-
-
