@@ -1,0 +1,38 @@
+schema multimodal_doc {
+
+  document multimodal_doc {
+
+    field title type string {
+      indexing: summary | index
+    }
+
+    field description type string {
+      indexing: summary | index
+    }
+
+    field embedding type tensor<float>(x[32], y[128]) {
+      indexing: attribute
+      attribute {
+        paged
+      }
+    }
+
+    field page type int {
+      indexing: summary
+    }
+
+    field modality type string {
+      indexing: summary
+    }
+  }
+
+  document-summary default {
+    summary title {}
+    summary description {}
+    summary embedding {
+      source: embedding
+    }
+    summary page {}
+    summary modality {}
+  }
+}
